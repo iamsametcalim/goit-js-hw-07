@@ -32,6 +32,7 @@ images.forEach((image) => {
   const img = document.createElement("img");
   img.src = image.url;
   img.alt = image.alt;
+  img.style.width = "360px";
 
   li.appendChild(img);
   gallery.appendChild(li);
